@@ -1,0 +1,33 @@
+// Script:    pecas.script
+// Autor:     Yuri Marques Strack
+// Data:      22/04/2019
+// Propósito: Ilustrar arquivo de script,
+//            Testa as funções da peça.
+//
+
+
+== Criar 2 peças pretas
+=criarpeca 0 'P' 0
+=criarpeca 1 'P' 0
+
+==Tentar obter cor sem peça existir (valor esperado de retorno eh 2)
+=obtercor 2 'B' 2
+
+== Obter cor errada da peça(testa recuperar)
+=obtercor 0 'B' 0
+=recuperar
+
+==Criar mais uma peca, dessa vez branca
+=criarpeca 2 'B' 0
+
+==Obter cor das peças
+=obtercor 1 'P' 0
+=obtercor 0 'P' 0
+=obtercor 2 'B' 0
+
+==Destruir peças
+=destruirpeca 2
+=destruirpeca 1
+=destruirpeca 0
+
+// fim

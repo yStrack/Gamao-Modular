@@ -1,0 +1,69 @@
+// Script:     TesteDadoPontosT12.script
+// Autores:   Gabriel Heffer
+// Data:      21/abril/2019
+// Propósito: Testar o módulos DadoPontos e suas funções,
+//	      Este é um script completo
+
+
+
+== Cria dado pontos vazia ( valor de retorno esperado é 0 )
+=criar 0
+
+== Destruir dado pontos
+=destruir
+
+== Tenta Inicializa dado ponto antes de criar ( valor de retorno esperado é 2 )
+=inic 'P' 2
+=criar 0
+== Inicializa dado existente com 'P' ( valor de retorno esperado é 0 )
+=inic 'P' 0
+=destruir
+
+== Tenta obter pontuação sem criar dado ponto ( valor de retorno esperado é 2 )
+=obterP 2
+=criar 0
+== Tenta obter pontuação sem inicializar dado pontos ( valor de retorno esperado é 3 )
+=obterP 3
+=inic 'B' 0
+== obter pontuação ( valor de retorno esperado é 0 )
+=obterP 0
+=destruir
+
+== Tenta Mudar jogador com dado pontos sem criar dado pontos ( valor de retorno esperado é 2 )
+=MjogPer 'B' 2
+=criar 0
+== Tenta Mudar jogador com dado pontos sem inicializar dado pontos ( valor de retorno esperado é 0 )
+=MjogPer 'B' 0
+== Mudar jogador com dado pontos ( valor de retorno esperado é 0 )
+=MjogPer 'P' 0
+=destruir
+
+== Tenta dobrar pontuação sem criar dado pontos ( valor de retorno esperado é 2 )
+=DoPont 'P' 2
+=criar 0
+== Tenta dobrar pontuação sem inicializar dado pontos ( valor de retorno esperado é 3 )
+=DoPont 'P' 3
+== Inicializa dado pontos com jogador 'B' ( valor de retorno esperado é 0 )
+=inic 'B' 0
+== jogador sem dado pontos tenta dobrar pontuação ( valor de retorno esperado é 4 )
+=DoPont 'P' 4
+== dobra pontuação
+=DoPont 'B' 0
+=DoPont 'B' 0
+=DoPont 'B' 0
+=DoPont 'B' 0
+=DoPont 'B' 0
+=DoPont 'B' 0
+== Tenta dobrar pontuação que se encontra no máximo ( valor de retorno esperado é 5 )
+=DoPont 'B' 5
+
+
+
+
+
+
+
+
+
+
+// fim

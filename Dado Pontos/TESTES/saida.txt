@@ -1,0 +1,43 @@
+
+
+LES - Laboratório de Engenharia de Software DI/PUC-Rio
+      Arcabouço de teste de módulos C  (c) 2006
+
+---------------------------------------------
+      Construto sob teste: TRAB2-2.exe
+
+      Arquivo de teste:    TesteDadoPontos.script
+
+
+!!!    0  Linha:     1  // Script:     TesteDadoPontosT12.script 
+!!!    0  Linha:     2  // Autores:   Gabriel Heffer 
+!!!    0  Linha:     3  // Data:      21/abril/2019 
+!!!    0  Linha:     4  // Propósito: Testar o módulos DadoPontos e suas funções, 
+!!!    0  Linha:     5  //	      Este é um script completo 
+    9  == Cria dado pontos vazia ( valor de retorno esperado é 0 )
+   12  == Destruir dado pontos
+   15  == Tenta Inicializa dado ponto antes de criar ( valor de retorno esperado é 2 )
+   18  == Inicializa dado existente com 'P' ( valor de retorno esperado é 0 )
+   22  == Tenta obter pontuação sem criar dado ponto ( valor de retorno esperado é 2 )
+   25  == Tenta obter pontuação sem inicializar dado pontos ( valor de retorno esperado é 3 )
+   28  == obter pontuação ( valor de retorno esperado é 0 )
+   32  == Tenta Mudar jogador com dado pontos sem criar dado pontos ( valor de retorno esperado é 2 )
+   35  == Tenta Mudar jogador com dado pontos sem inicializar dado pontos ( valor de retorno esperado é 0 )
+   37  == Mudar jogador com dado pontos ( valor de retorno esperado é 0 )
+   41  == Tenta dobrar pontuação sem criar dado pontos ( valor de retorno esperado é 2 )
+   44  == Tenta dobrar pontuação sem inicializar dado pontos ( valor de retorno esperado é 3 )
+   46  == Inicializa dado pontos com jogador 'B' ( valor de retorno esperado é 0 )
+   48  == jogador sem dado pontos tenta dobrar pontuação ( valor de retorno esperado é 4 )
+   50  == dobra pontuação
+   57  == Tenta dobrar pontuação que se encontra no máximo ( valor de retorno esperado é 5 )
+!!!    0  Linha:    69  // fim 
+
+!!! Número de linhas lidas:          69
+!!! Número de casos de teste:        16
+!!! Número comandos corretos:        29
+!!! Número de falhas encontradas:     0
+
+!!! Não foram encontrados problemas
+
+
+!!! Numero de espacos ainda alocados: 0

@@ -1,0 +1,32 @@
+
+
+LES - Laboratório de Engenharia de Software DI/PUC-Rio
+      Arcabouço de teste de módulos C  (c) 2006
+
+---------------------------------------------
+      Construto sob teste: trab2-1.exe
+
+      Arquivo de teste:    dados.script
+
+
+!!!    0  Linha:     1  // Script:    dados.script 
+!!!    0  Linha:     2  // Autor:     Yuri Marques Strack 
+!!!    0  Linha:     3  // Data:      16/04/2019 
+!!!    0  Linha:     4  // Propósito: Ilustrar arquivo de script, 
+!!!    0  Linha:     5  //            Testa a jogada dos dados. 
+!!!    0  Linha:     6  // 
+    8  == Verificar valores obtidos ao jogar dois dados
+       Valor obtido no dado1: 6 
+       Valor obtido no dado2: 3 
+
+!!!    0  Linha:    11  // fim 
+
+!!! Número de linhas lidas:          11
+!!! Número de casos de teste:         1
+!!! Número comandos corretos:         1
+!!! Número de falhas encontradas:     0
+
+!!! Não foram encontrados problemas
+
+
+!!! Numero de espacos ainda alocados: 0

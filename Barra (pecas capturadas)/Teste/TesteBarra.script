@@ -1,0 +1,45 @@
+// Script:    TesteTabuleiro.script
+// Autor:     Gabriel de Souza Heffer Matheus
+// Data:      24/fev/2019
+// Propósito: Ilustrar arquivo de script, 
+//            Testa a construção de uma Barra usando parâmetros literais
+//
+
+
+== Criar Barra
+=criar 0
+=destruir
+
+== Tentando inserir peça 'B' antes de criar Barra
+=inserir 'B' 2
+
+== Inserindo peça 'B' em Barra
+=criar 0
+=inserir 'B' 0
+=destruir
+
+== Tentando obter quantidade de peças 'B' sem criar Barra 
+=quantidade 'B'  2
+
+== Inserindo 2 peças 'P' em Barra e obtendo quantidade de peças 'P'
+=criar 0
+=inserir 'P' 0
+=inserir 'P' 0
+=quantidade 'P' 0
+=destruir
+
+== Tentando retirar uma peça 'B' da Barra sem criar Barra
+=retirar 'B' 2
+
+== Tentando retirar uma peça 'B' da Barra vazia
+=criar 0
+=retirar 'B' 4
+
+== Iserindo 1 peça 'P' e retirando essa peça
+=inserir 'P' 0
+=retirar 'P' 0
+=destruir
+
+
+
+// fim

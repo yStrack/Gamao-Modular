@@ -1,0 +1,1 @@
+TRAB2-2.exe /sTesteDadoPontos.script >saida.txt

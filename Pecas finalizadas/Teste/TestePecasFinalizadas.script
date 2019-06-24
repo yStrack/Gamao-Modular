@@ -1,0 +1,40 @@
+// Script:    TesteTabuleiro.script
+// Autor:     Gabriel de Souza Heffer Matheus
+// Data:      24/fev/2019
+// Propósito: Ilustrar arquivo de script, 
+//            Testa a construção de Peças Finalizadas usando parâmetros literais
+//
+
+== Criando uma estrutura de Peças Finalizadas
+=criar 0
+=destruir
+
+== Tentando inserir peça 'B' sem criar estrutura de Peças Finalizadas
+=inserir 'B' 2
+
+== Criando estrtura para Peças Finalizadas e inserindo peça 'B'
+=criar 0
+=inserir 'B' 0
+=destruir
+
+== Obtendo quantidade de peças finalizadas 'P' sem criar estrutura para peças finalizadas
+=obterQTD 'P' 2
+
+== Obtendo quantidade de peças 'P' sem inserir peça
+=criar 0
+=obterQTD 'P' 0
+
+== Inserindo 3 peças 'P' e obtendo quantidade de peças 'P'
+=inserir 'P' 0
+=inserir 'P' 0
+=inserir 'P' 0
+=obterQTD 'P' 0
+
+== Obtendo quantidade de peças 'B' sem inserir nenhuma peça
+=obterQTD 'B' 0
+=destruir
+
+
+
+
+// fim

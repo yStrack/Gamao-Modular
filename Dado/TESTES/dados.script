@@ -1,0 +1,11 @@
+// Script:    dados.script
+// Autor:     Yuri Marques Strack
+// Data:      16/04/2019
+// Propósito: Ilustrar arquivo de script, 
+//            Testa a jogada dos dados.
+//
+
+== Verificar valores obtidos ao jogar dois dados
+=jogardados 0
+
+// fim

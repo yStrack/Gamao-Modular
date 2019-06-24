@@ -1,0 +1,36 @@
+
+
+LES - Laboratório de Engenharia de Software DI/PUC-Rio
+      Arcabouço de teste de módulos C  (c) 2006
+
+---------------------------------------------
+      Construto sob teste: TRAB2-3.exe
+
+      Arquivo de teste:    peca.script
+
+
+!!!    0  Linha:     1  // Script:    pecas.script 
+!!!    0  Linha:     2  // Autor:     Yuri Marques Strack 
+!!!    0  Linha:     3  // Data:      22/04/2019 
+!!!    0  Linha:     4  // Propósito: Ilustrar arquivo de script, 
+!!!    0  Linha:     5  //            Testa as funções da peça. 
+!!!    0  Linha:     6  // 
+    9  == Criar 2 peças pretas
+   13  ==Tentar obter cor sem peça existir (valor esperado de retorno eh 2)
+   16  == Obter cor errada da peça(testa recuperar)
+>>>    1  Linha:    17  Cor da peca esta errada. Deveria ser: 'B'  É: 'P'
+<<<    0  Linha:    18  Falha esperada foi recuperada. 
+   20  ==Criar mais uma peca, dessa vez branca
+   23  ==Obter cor das peças
+   28  ==Destruir peças
+!!!    0  Linha:    33  // fim 
+
+!!! Número de linhas lidas:          33
+!!! Número de casos de teste:         6
+!!! Número comandos corretos:        10
+!!! Número de falhas encontradas:     0
+
+!!! Não foram encontrados problemas
+
+
+!!! Numero de espacos ainda alocados: 0

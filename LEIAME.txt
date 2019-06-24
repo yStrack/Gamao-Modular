@@ -1,0 +1,66 @@
+Grupo:
+  -Gabriel Heffer (GH)
+  -Lucas Damo (LD)
+  -Yuri Strack (YS)
+
+Objetivo:
+  Este arquivo resume o conteúdo e funcionamento do arquivo INF1301-Trab03-GHLDYS.zip do grupo.
+  Todos arquivos contidos na entrega possuem objetivo desenvolvimento do jogo e de testar os módulos
+  desenvolvidos para o gamão.
+
+Arquivos:
+  Ao extrair o conteúdo do arquivo .zip, o mesmo apresenta:
+
+  PASTAS:
+    - Dado:
+        -Fonte: Contém os arquivos .c .h e .lib utilizados no módulo DADO.
+        -TESTES: Contém o script de testes, o executável do módulo dado (TRAB2-1.exe) e um .bat para facilitar
+                 a execução.
+    - Dado Pontos:
+      -Fonte: Contém os arquivos .c .h e .lib utilizados no módulo DADO PONTOS.
+      -TESTES: Contém o script de testes, o executável do módulo dado pontos (TRAB2-2.exe) e um .bat para facilitar
+               a execução.
+    - Peca:
+      -Fonte: Contém os arquivos .c .h e .lib utilizados no módulo PECA.
+      -TESTES: Contém o script de testes, o executável do módulo peça (TRAB2-3.exe) e um .bat para facilitar
+               a execução.
+    - Tabuleiro:
+      -Fonte: Contém os arquivos .c .h e .lib utilizados no módulo TABULEIRO.
+      -TESTES: Contém o script de testes, o executável do módulo tabuleiro (TRAB2-4.exe) e um .bat para facilitar
+               a execução.
+    - Gamao:
+      -Fonte: Contém os arquivos .c e .h utilizados no desenvolvimento do jogo de Gamão.
+      -TRAB3-1.exe: executável da aplicaçao de Gamão.
+
+    - Barra:
+      -Fonte: Contém os arquivos .c .h e .lib utilizados no módulo BARRA.
+      -TESTES: Contém o script de testes, o executável do módulo barra (TRAB3-2.exe) e um .bat para facilitar
+                a execução.
+
+    - Pecas Finalizadas:
+      -Fonte: Contém os arquivos .c .h e .lib utilizados no módulo PecasFinalizadas.
+      -TESTES: Contém o script de testes, o executável do módulo pecas finalizadas (TRAB3-3.exe) e um .bat para facilitar
+                a execução.
+
+    ARQUIVOS:
+    -Documentacao.pdf : Contém especificação de requisitos, arquitetura e modelagem do jogo de gamão.
+    -LEIAME.txt
+    -Manual.pdf: Manual de usuário da aplicação de Gamão.
+    -ArgCorretude.pdf: Argumentação de corretude.
+    -ScriptTesteGamão: Script de teste comentado do Gamão.
+
+Funcionamento:
+  Para executar o jogo:
+  -Na pasta./TRAB3-1(Gamao), clique duas vezes com o botão esquerdo do mouse no executável TRAB3-1.exe .
+
+  Para executar os testes de cada módulo:
+  -Na pasta ./TRAB3-X(YYY)/TESTES , clique duas vezes com o botão esquerdo do mouse no arquivo
+   testa.bat. O resultado do teste estará em um arquivo saida.txt gerado após rodar o .bat.
+
+   Obs: X representa o número do módulo e YYY o nome do módulo, Ex: TRAB3-1 (Barra).
+
+  -Caso queira criar um projeto no Visual Studio (VS) com os arquivos fonte de cada módulo do trabalho:
+    1.Criar um novo projeto no VS
+    2.Incluir nele todos os arquivos contido na pasta ./Fontes
+    3.Antes de buildar ir em project->properties->C/C++, em Runtime Library e selecionar "MultiThread Debug" para retirar dependência de dll.
+    4.Buildar o projeto.

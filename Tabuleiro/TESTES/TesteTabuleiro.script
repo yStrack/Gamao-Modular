@@ -1,0 +1,156 @@
+// Script:    TesteTabuleiro.script
+// Autor:     Gabriel de Souza Heffer Matheus
+// Data:      24/fev/2019
+// Propósito: Ilustrar arquivo de script, 
+//            Testa a construção de uma árvore usando parâmetros literais
+//            Não verifica se as operações modificaram corretamente as referências
+//            Este script é muito superficial !!!
+//
+
+
+== Criar Tabuleiro
+=criar      0
+=destruir
+
+== Tentar Inicializar tabuleiro sem criar 
+=inic 2
+
+==Inicializando um Tabuleiro
+=criar 0
+=inic 0
+=destruir
+
+== Tentando Inserir peça sem criar Tabuleiro
+=inserir 'B' 2
+
+== Tentando Inserir peça sem inicializar tabuleiro
+=criar 0
+=inserir 'B' 3
+=destruir
+
+== Inserindo elemento
+=criar 0
+=inic 0
+=inserir 'B' 0
+=destruir
+
+== Tenta Obter peca de uma casas sem criar Tabuleiro
+=ObterPEC 2
+
+== Tenta Obter peca de uma casa sem inicializar Tabuleiro
+=criar 0
+=ObterPEC 3
+=destruir
+
+== Tenta Obter peca de uma casa vazia
+=criar 0
+=inic 0
+=ObterPEC 5
+=destruir
+
+== Obtendo peca cor 'P' inserida na casa 
+=criar 0
+=inic 0
+=inserir 'P' 0
+=ObterPEC 0
+=destruir
+
+== Tentando excluir peca sem criar Tabuleiro
+=excluir 2
+
+== Tentando excluir peca sem inicializar Tabuleiro
+=criar 0
+=excluir 3
+=destruir
+
+== Tentando excluir uma peça em uma casa vazia
+=criar 0
+=inic 0
+=excluir 5
+=destruir 
+
+== Excluindo peca 'B' inserida 
+=criar 0
+=inic 0
+=inserir 'B' 0
+=ObterPEC 0
+=excluir 0
+== Verificando se casa está vazia ( retorno esperado é 5 )
+=ObterPEC 0
+=recuperar
+=destruir
+
+== Tentando obter a quantidade de pecas em uma casa sem criar Tabuleiro
+=ObterQUANT 2
+
+== Tentando obter a quantidade de pecas em uma casa sem inicializar Tabuleiro
+=criar 0
+=ObterQUANT 3
+=destruir
+
+== Obtento quantidade de pecas em uma casa vazia 
+=criar 0
+=inic 0
+=ObterQUANT 0
+
+== Inserindo 3 pecas 'P' na casa corrente
+=inserir 'P' 0
+=inserir 'P' 0
+=inserir 'P' 0
+
+== Obtendo quantidade de pecas
+=ObterQUANT 0
+=destruir
+
+== Tentando andar n casas sem criar Tabuleiro
+=andar 10 2
+
+== Tentando andar n casa sem inicializar Tabuleiro
+=criar 0
+=andar 5 3
+
+== Criando e inicializando Tabuleiro 
+=criar 0
+=inic 0
+== Andando 10 casas
+=andar 10 0
+==Inserindo peca 'B'
+=inserir 'B' 0
+== Andando mais 5 casas
+=andar 5 0
+== Voltando 5 casas
+=andar -5 0
+== Obtendo peca 'B'
+=ObterPEC 0
+=destruir
+
+== Tenta ir para início do tabuleiro sem criar tabuleiro
+=IrInic 2
+
+== Tenta ir para final do tabuleiro sem criar Tabuleiro
+=IrFinal 2
+
+== Tenta ir para o final do tabuleiro sem inicializar tabuleiro
+=criar 0
+=IrFinal 0
+=destruir
+
+== Tenta ir para o final do tabuleiro sem inicializar tabuleiro
+=criar 0
+=IrFinal 0
+=destruir
+
+== Inserindo peça 'B' na primeiro casa
+=criar 0
+=inic 0
+=inserir 'B' 0
+
+== Indo para o final do tabuleiro 
+=IrFinal 0
+== Indo para início e obtendo peça inserida
+=IrInic 0
+=ObterPEC 0
+=destruir
+
+
+// fim

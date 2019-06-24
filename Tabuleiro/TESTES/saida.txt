@@ -1,0 +1,67 @@
+
+
+LES - Laboratório de Engenharia de Software DI/PUC-Rio
+      Arcabouço de teste de módulos C  (c) 2006
+
+---------------------------------------------
+      Construto sob teste: TRAB2-4.exe
+
+      Arquivo de teste:    TesteTabuleiro.script
+
+
+!!!    0  Linha:     1  // Script:    TesteTabuleiro.script 
+!!!    0  Linha:     2  // Autor:     Gabriel de Souza Heffer Matheus 
+!!!    0  Linha:     3  // Data:      24/fev/2019 
+!!!    0  Linha:     4  // Propósito: Ilustrar arquivo de script, 
+!!!    0  Linha:     5  //            Testa a construção de uma árvore usando parâmetros literais 
+!!!    0  Linha:     6  //            Não verifica se as operações modificaram corretamente as referências 
+!!!    0  Linha:     7  //            Este script é muito superficial !!! 
+!!!    0  Linha:     8  // 
+   11  == Criar Tabuleiro
+   15  == Tentar Inicializar tabuleiro sem criar
+   18  ==Inicializando um Tabuleiro
+   23  == Tentando Inserir peça sem criar Tabuleiro
+   26  == Tentando Inserir peça sem inicializar tabuleiro
+   31  == Inserindo elemento
+   37  == Tenta Obter peca de uma casas sem criar Tabuleiro	peça obtida: ?
+   40  == Tenta Obter peca de uma casa sem inicializar Tabuleiro	peça obtida: ?
+   45  == Tenta Obter peca de uma casa vazia	peça obtida: ?
+   51  == Obtendo peca cor 'P' inserida na casa	peça obtida: P
+   58  == Tentando excluir peca sem criar Tabuleiro
+   61  == Tentando excluir peca sem inicializar Tabuleiro
+   66  == Tentando excluir uma peça em uma casa vazia
+   72  == Excluindo peca 'B' inserida	peça obtida: B
+   78  == Verificando se casa está vazia ( retorno esperado é 5 )	peça obtida: ?
+>>>    1  Linha:    79  Retorno errado ao obter peça da casa corrente. Deveria ser: 0  É: 5
+<<<    0  Linha:    80  Falha esperada foi recuperada. 
+   83  == Tentando obter a quantidade de pecas em uma casa sem criar Tabuleiro	 quantidade: -1
+   86  == Tentando obter a quantidade de pecas em uma casa sem inicializar Tabuleiro	 quantidade: -1
+   91  == Obtento quantidade de pecas em uma casa vazia	 quantidade: 0
+   96  == Inserindo 3 pecas 'P' na casa corrente
+  101  == Obtendo quantidade de pecas	 quantidade: 3
+  105  == Tentando andar n casas sem criar Tabuleiro
+  108  == Tentando andar n casa sem inicializar Tabuleiro
+  112  == Criando e inicializando Tabuleiro
+  115  == Andando 10 casas
+  117  ==Inserindo peca 'B'
+  119  == Andando mais 5 casas
+  121  == Voltando 5 casas
+  123  == Obtendo peca 'B'	peça obtida: B
+  127  == Tenta ir para início do tabuleiro sem criar tabuleiro
+  130  == Tenta ir para final do tabuleiro sem criar Tabuleiro
+  133  == Tenta ir para o final do tabuleiro sem inicializar tabuleiro
+  138  == Tenta ir para o final do tabuleiro sem inicializar tabuleiro
+  143  == Inserindo peça 'B' na primeiro casa
+  148  == Indo para o final do tabuleiro
+  150  == Indo para início e obtendo peça inserida	peça obtida: B
+!!!    0  Linha:   156  // fim 
+
+!!! Número de linhas lidas:         156
+!!! Número de casos de teste:        35
+!!! Número comandos corretos:        79
+!!! Número de falhas encontradas:     0
+
+!!! Não foram encontrados problemas
+
+
+!!! Numero de espacos ainda alocados: 0
